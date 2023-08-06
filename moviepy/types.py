@@ -22,4 +22,4 @@ if TYPE_CHECKING:
     NBytes: TypeAlias = Literal[1, 2, 4]
     NChannels: TypeAlias = Literal[1, 2]
     ScreenSide: TypeAlias = Literal["top", "bottom", "left", "right"]
-    Time: TypeAlias = Union[float, Tuple[int, int], Tuple[int, int, int], str]
+    Time: TypeAlias = Union[float, Tuple[int, float], Tuple[int, int, float], str]
