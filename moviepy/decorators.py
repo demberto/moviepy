@@ -141,7 +141,7 @@ def add_mask_if_none(
 
 
 @decorator.decorator
-def useClip_fps_by_default(
+def use_clip_fps_by_default(
     func: ClipFunc[P], clip: Clip, *args: P.args, **kwargs: P.kwargs
 ) -> Clip:
     """Will use ``clip.fps`` if no ``fps=...`` is provided in **kwargs**."""
